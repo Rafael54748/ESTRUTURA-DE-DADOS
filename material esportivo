@@ -1,0 +1,77 @@
+#Integrantes 
+#Rafael Carlos Araujo Oliveira
+#Udo Bernardo Quirino de Jesus
+#Kenzo  Chaves Kitajima 
+
+import queue 
+import timesleep
+# Interface 
+def inter()
+print ("--------------------------------------------------------")
+print ("Bem vindo a loja de materiais esportivos")
+print ("Escolha uma das opcoes a seguir")
+print ("(1) Listar produtos no estoque ")
+print ("(2) Inserir produtos no estoque")
+print ("(3) Remover produtos no estoque")
+print ("(4) Registrar itens do cliente")
+opcao = int (input ("Opcao:" ))
+print ("----------------------------------------------------------")
+# Dicionario de dados Produtos
+Produtos = {0120: [ "garrafa termica", 19.00 , 10 ],  0230: [ "tenis corrida", 100,00 , 4 ], 0340: [ "chuteira", 200,00 , 6 ],0450: [ "mochila", 150.00 , 2 ],0560: [ "bola", 70.00 , 5 ],0670: [ "luva", 50.00 , 8 ], 1780: [ "meiao", 30,00 , 9 ],1890 : [ "caneleira ", 60.00 , 7 ],1900: [ "bone", 20.00 , 20 ], 1000: [ "camisa", 35.00 , 30]}
+ def opco()
+# Listagem Produtos
+if opcao == 1
+   print Produtos
+# Inserir produto
+if opcao == 2
+   print("Digite valor e quantidade do produto")
+   key = int (input("Digite codigo": ))
+   value = input ("Digite nome, valor, e quantidade do produto" :)
+   Produtos = dict[ key ] = value
+#Remover produto
+if opcao == 3
+   print Produtos 
+remocao = int (input ("Digite condigo de qual produto deseja retirar": ))
+   x = Produtos.pop(remocao)
+#Registrar produto
+if opcao == 4
+     nome= input ("nome cliente":  )
+     quantidade = input ("Informe quantidade do item":  )
+     if quantidade > values(quantidade) Produtos
+     print ("Quantidade desejada  nao sera possivel devido falta de     produtos no estoque ")
+     quant = print ("Gostaria de outro item ? ": )
+      if quant > values(quant) Produtos
+      print ("Quantidade desejada nao sera possivel devido    quantidade nao atender o que ele solicitou")
+     # Atualizando dicionario de dados
+     y = Produtos.update
+     ##Armazenando informacoes cliente
+     lista = []
+     lista.append(codigo(nome,valor,quantidade))
+     lista.maxsize = 5
+     lista.full()
+ 
+ #Caixas    
+ def caix()
+fila_clientes []
+fila_clientes.append ()
+fila_clientes.maxsize = 3
+fila_clientes.full()
+if lista.empty()
+   while lista full.() = true
+   caixa1 = print ("bem vindo ao caixa 1")  
+    print (lista + valor + quantidade)
+    time.sleep(2)
+    caixa2 =
+    print ("bem vindo ao caixa 1") 
+    print (lista + valor + quantidade)
+    time.sleep(2)
+    print (lista + valor + quantidade)
+    caixa= caixa3
+    print ("bem vindo ao caixa 1") 
+    print (lista + valor + quantidade)
+    time.sleep(2)
+    
+else inter()
+     opco()
+     caix()
+     time.sleep(2)
